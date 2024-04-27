@@ -1,0 +1,53 @@
+/* src/FireForm.css */
+
+/* Style for the form container */
+.fire-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFCCCC; /* Red background */
+    border-radius: 10px;
+  }
+  
+  /* Style for form headings */
+  .fire-form-container h2 {
+    color: #FF0000; /* Red text */
+    text-align: center;
+  }
+  
+  /* Style for form labels */
+  .fire-form-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #FFFFFF; /* White text */
+  }
+  
+  /* Style for input fields */
+  .fire-form-container input[type="text"],
+  .fire-form-container input[type="date"],
+  .fire-form-container select,
+  .fire-form-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Style for submit button */
+  .fire-form-container button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #FFFFFF; /* White background */
+    color: #FF0000; /* Red text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for submit button on hover */
+  .fire-form-container button[type="submit"]:hover {
+    background-color: #FF0000; /* Red background */
+    color: #FFFFFF; /* White text */
+  }
+  

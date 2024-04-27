@@ -1,0 +1,37 @@
+/* src/Navbar.css */
+
+/* Style for the navbar container */
+.navbar {
+    background-color: #007bff; /* Blue background color */
+    padding: 10px 0; /* Add some padding */
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center items horizontally */
+    position: relative; /* Set position to relative */
+    z-index: 1; /* Set z-index to make it appear above other content */
+}
+
+/* Style for the navbar list */
+.navbar-nav {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox layout */
+}
+
+/* Style for navbar list items */
+.nav-item {
+    margin-right: 20px; /* Add some spacing between items */
+}
+
+/* Style for navbar links */
+.nav-link {
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underlines */
+}
+
+/* Style for navbar links on hover */
+.nav-link:hover {
+    color: #ff0000; /* Red text color */
+}
+
+/* Apply additional styles as needed */
